@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nomad TV</string>
+    <string name="share_via">Compartilhar via</string>
+    <string name="no_browser">Nenhum navegador encontrado para abrir este link.</string>
+    <string name="load_error">Não foi possível carregar a Nomad TV. Verifique sua conexão e tente novamente.</string>
+</resources>

@@ -1,0 +1,27 @@
+{
+  "name": "Nomad TV",
+  "short_name": "Nomad TV",
+  "description": "Sua TV, sem fronteiras. Canais ao vivo, eventos e guia de programação.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#07090c",
+  "theme_color": "#07090c",
+  "categories": ["entertainment", "video", "sports"],
+  "icons": [
+    {
+      "src": "/assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

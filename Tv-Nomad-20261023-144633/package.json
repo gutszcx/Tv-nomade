@@ -1,0 +1,26 @@
+{
+  "name": "nomad-tv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nomad TV — streaming de canais ao vivo, eventos esportivos e guia de programação (EPG).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "iptv",
+    "streaming",
+    "epg",
+    "tv",
+    "nomad"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "compression": "^1.8.1",
+    "express": "^4.22.3"
+  }
+}

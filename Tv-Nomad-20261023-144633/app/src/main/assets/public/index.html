@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07090c">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Nomad TV — canais ao vivo, esportes e guia de programação em um só lugar.">
+  <meta property="og:title" content="Nomad TV">
+  <meta property="og:description" content="Sua TV, sem fronteiras. Canais ao vivo, eventos e guia de programação.">
+  <meta property="og:type" content="website">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Nomad TV — Sua TV, sem fronteiras</title>
+  <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="is-booting">
+
+  <svg class="svg-sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9.5 21v-6h5v6"/></symbol>
+    <symbol id="i-tv" viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="13" rx="2.5"/><path d="m8 2.5 4 3.5 4-3.5"/><path d="M8 19v2M16 19v2"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 3h8v5a4 4 0 0 1-8 0V3Z"/><path d="M8 5H4v2a4 4 0 0 0 4 4M16 5h4v2a4 4 0 0 1-4 4"/><path d="M12 12v5M8 21h8M10 17h4"/></symbol>
+    <symbol id="i-guide" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="16" rx="2.5"/><path d="M8 2.5v4M16 2.5v4M3 9.5h18"/><path d="M7.5 13h3M7.5 16.5h6"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.5S3.5 15.6 3.5 9.7A4.7 4.7 0 0 1 12 6a4.7 4.7 0 0 1 8.5 3.7c0 5.9-8.5 10.8-8.5 10.8Z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.2v13.6L19 12 8 5.2Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+    <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M20 12H4M10 6l-6 6 6 6"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-8.5 8.5"/><path d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5.5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.5" r="3"/><path d="m8.6 10.5 6.8-3.6M8.6 13.5l6.8 3.6"/></symbol>
+    <symbol id="i-fullscreen" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></symbol>
+    <symbol id="i-fullscreen-exit" viewBox="0 0 24 24"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.2l3.4 2"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M12 3.5 13.8 9l5.7 1.8-5.7 1.8L12 18l-1.8-5.4L4.5 10.8 10.2 9 12 3.5Z"/><path d="M19 16.5 19.8 19l2.2.7-2.2.8L19 22l-.8-2.5L16 18.7l2.2-.7.8-1.5Z"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 6h16M7 12h10M10 18h4"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.5 6.4"/><path d="M20 4v7h-7"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-volume" viewBox="0 0 24 24"><path d="M11 5 6.5 8.5H3v7h3.5L11 19V5Z"/><path d="M15 9a4.5 4.5 0 0 1 0 6M18 6.5a8.5 8.5 0 0 1 0 11"/></symbol>
+    <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M3 8.5a14 14 0 0 1 18 0M6.5 12.2a9 9 0 0 1 11 0M10 15.8a4.5 4.5 0 0 1 4 0"/><circle cx="12" cy="19" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-sport" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m12 7 3.8 2.8-1.4 4.4H9.6L8.2 9.8 12 7ZM12 3v4M4.4 9.3l3.8.5M6.5 19l3.1-4M17.5 19l-3.1-4M19.6 9.3l-3.8.5"/></symbol>
+    <symbol id="i-film" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/></symbol>
+    <symbol id="i-news" viewBox="0 0 24 24"><path d="M5 4h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8"/><path d="M3 8V6a2 2 0 0 1 2-2M7 9h10M7 13h4M7 17h4M14 13h3v4h-3z"/></symbol>
+    <symbol id="i-kids" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.5a4.5 4.5 0 0 0 7 0M9 9.5h.01M15 9.5h.01"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3.5 6h.01M3.5 12h.01M3.5 18h.01"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/></symbol>
+  </svg>
+
+  <div class="ambient" aria-hidden="true">
+    <span class="ambient-glow ambient-glow--one"></span>
+    <span class="ambient-glow ambient-glow--two"></span>
+    <span class="ambient-grain"></span>
+  </div>
+
+  <div id="boot" class="boot" role="status" aria-live="polite">
+    <div class="boot-inner">
+      <div class="boot-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="64" height="64"><defs><linearGradient id="bootGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd08a"/><stop offset=".5" stop-color="#ffb04d"/><stop offset="1" stop-color="#ff5f6d"/></linearGradient></defs><rect x="2" y="2" width="60" height="60" rx="18" fill="url(#bootGrad)"/><path d="M26 20.5 45 32 26 43.5Z" fill="#0a0c10"/><circle cx="32" cy="32" r="24" fill="none" stroke="rgba(10,12,16,.35)" stroke-width="1.5" stroke-dasharray="3 7"/></svg>
+      </div>
+      <div class="boot-name">NOMAD <b>TV</b></div>
+      <div class="boot-line"><span></span></div>
+      <p class="boot-caption">Sintonizando sua programação…</p>
+    </div>
+  </div>
+
+  <div id="app-shell" class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="/" data-link aria-label="Nomad TV — início">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><defs><linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd08a"/><stop offset=".5" stop-color="#ffb04d"/><stop offset="1" stop-color="#ff5f6d"/></linearGradient></defs><rect x="2" y="2" width="60" height="60" rx="18" fill="url(#brandGrad)"/><path d="M26 20.5 45 32 26 43.5Z" fill="#0a0c10"/><circle cx="32" cy="32" r="24" fill="none" stroke="rgba(10,12,16,.35)" stroke-width="1.5" stroke-dasharray="3 7"/></svg>
+        </span>
+        <span class="brand-word">NOMAD<i>TV</i></span>
+      </a>
+
+      <nav class="side-nav" aria-label="Navegação principal">
+        <a class="nav-item" href="/" data-link data-nav="home">
+          <svg class="ico"><use href="#i-home"/></svg><span>Início</span>
+        </a>
+        <a class="nav-item" href="/canais" data-link data-nav="channels">
+          <svg class="ico"><use href="#i-tv"/></svg><span>Canais</span>
+        </a>
+        <a class="nav-item" href="/eventos" data-link data-nav="events">
+          <svg class="ico"><use href="#i-trophy"/></svg><span>Eventos</span>
+          <em class="nav-pulse" id="navLiveBadge" hidden>Ao vivo</em>
+        </a>
+        <a class="nav-item" href="/guia" data-link data-nav="guide">
+          <svg class="ico"><use href="#i-guide"/></svg><span>Guia de TV</span>
+        </a>
+        <a class="nav-item" href="/minha-lista" data-link data-nav="favorites">
+          <svg class="ico"><use href="#i-heart"/></svg><span>Minha lista</span>
+          <em class="nav-count" id="favCount" hidden>0</em>
+        </a>
+      </nav>
+
+      <div class="side-section" id="sideCategories">
+        <div class="side-label">Categorias</div>
+        <div class="side-cats" id="sideCatList"></div>
+      </div>
+
+      <div class="side-foot">
+        <div class="source-state" id="sourceState">
+          <span class="dot"></span>
+          <span id="sourceLabel">Conectando…</span>
+        </div>
+        <div class="side-meta">Nomad TV v1.0 · <a href="/api" target="_blank" rel="noopener">API</a></div>
+      </div>
+    </aside>
+
+    <div class="app-main">
+      <header class="topbar">
+        <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Abrir menu">
+          <svg class="ico"><use href="#i-menu"/></svg>
+        </button>
+
+        <button class="search-trigger" id="searchTrigger" type="button" aria-label="Buscar">
+          <svg class="ico"><use href="#i-search"/></svg>
+          <span class="search-trigger-text">Buscar canais, eventos e programas</span>
+          <kbd>/</kbd>
+        </button>
+
+        <div class="topbar-right">
+          <div class="on-air" title="Horário de Brasília">
+            <span class="on-air-dot"></span>
+            <span class="on-air-label">No ar</span>
+            <time id="clock">--:--</time>
+          </div>
+          <a class="icon-btn top-fav" href="/minha-lista" data-link aria-label="Minha lista">
+            <svg class="ico"><use href="#i-heart"/></svg>
+            <span class="top-fav-dot" id="topFavDot" hidden></span>
+          </a>
+          <button class="avatar" type="button" aria-label="Perfil Nomad" data-toast="Perfis chegam em breve na Nomad TV.">N</button>
+        </div>
+      </header>
+
+      <main id="view" class="view" tabindex="-1"></main>
+
+      <footer class="site-footer">
+        <div class="foot-brand">
+          <span class="brand-mark brand-mark--sm" aria-hidden="true">
+            <svg viewBox="0 0 64 64"><defs><linearGradient id="footGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd08a"/><stop offset=".5" stop-color="#ffb04d"/><stop offset="1" stop-color="#ff5f6d"/></linearGradient></defs><rect x="2" y="2" width="60" height="60" rx="18" fill="url(#footGrad)"/><path d="M26 20.5 45 32 26 43.5Z" fill="#0a0c10"/></svg>
+          </span>
+          <span>Sua TV, sem fronteiras.</span>
+        </div>
+        <p>Transmissões fornecidas por <a href="https://embedtv.cc" target="_blank" rel="noopener">embedtv.cc</a>. A Nomad TV organiza o catálogo e não hospeda os sinais.</p>
+      </footer>
+    </div>
+  </div>
+
+  <nav class="mobile-nav" aria-label="Navegação rápida">
+    <a href="/" data-link data-mnav="home"><svg class="ico"><use href="#i-home"/></svg><span>Início</span></a>
+    <a href="/canais" data-link data-mnav="channels"><svg class="ico"><use href="#i-tv"/></svg><span>Canais</span></a>
+    <a href="/eventos" data-link data-mnav="events"><svg class="ico"><use href="#i-trophy"/></svg><span>Eventos</span></a>
+    <a href="/guia" data-link data-mnav="guide"><svg class="ico"><use href="#i-guide"/></svg><span>Guia</span></a>
+    <a href="/minha-lista" data-link data-mnav="favorites"><svg class="ico"><use href="#i-heart"/></svg><span>Lista</span></a>
+  </nav>
+
+  <div id="scrim" class="scrim" hidden></div>
+  <div id="player-root"></div>
+  <div id="search-overlay" class="search-overlay" hidden></div>
+  <div id="toast-root" class="toast-root" aria-live="polite" aria-atomic="false"></div>
+
+  <noscript>
+    <div class="noscript">A Nomad TV precisa de JavaScript ativado para exibir os canais e a programação.</div>
+  </noscript>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
